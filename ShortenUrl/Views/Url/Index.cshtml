@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Shorten Url Service";
+}
+
+@model ShortenUrl.Models.UrlViewModel
+
+<h2>Shortened Your Url!</h2>
+
+@using(Html.BeginForm())
+{
+    @Html.TextBoxFor(model => model.LongUrl, new {placeholder="http://" })
+    <input type="submit" value="Shorten"/>
+    @Html.ValidationMessageFor(model=>model.LongUrl)
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

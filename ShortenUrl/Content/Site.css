@@ -1,0 +1,95 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #c7cbac;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+h2{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+#container{
+    width:500px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:80px;
+}
+
+input[type=text]{
+    width:80%;
+    height:30px;
+    font-size:20px;
+    padding:5px;
+    color:#5e3838
+}
+
+input[type=submit]{
+    height:43px;
+    vertical-align:top;
+    background:#000;
+    border:1px solid #fff;
+    border-radius:5px;
+    color:#fff;
+}
+
+a.link-result{
+    color:#fff;
+    font-size:35px;
+    font-weight:bold;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

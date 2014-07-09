@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Result";
+}
+
+@using ShortenUrl.Common
+@model ShortenUrl.Models.Url
+
+<h2>Here's Your Shortened Url</h2>
+
+@Html.ActionLink(SiteConst.TopUrl + "" + @Model.ShortenedUrl, null, @Model.ShortenedUrl,null, new { @class="link-result" })
